@@ -57,7 +57,7 @@ export default function Home({ posts, globalContent }) {
           ))}
         </ul>
       </main>
-      <Footer copyrightText={globalContent.copyrightText} />
+      <Footer copyrightText={globalContent.copyrightText} version="1.0" />
       <GradientBackground
         variant="large"
         className="fixed top-20 opacity-40 dark:opacity-60"
