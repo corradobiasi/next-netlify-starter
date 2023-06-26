@@ -14,7 +14,7 @@ export default function Footer({ copyrightText, version }) {
           {documentToReactComponents(copyrightText)}
         </div>
         <div className="dark:text-white uppercase mb-3 font-bold opacity-60">
-          <p>Version {version}</p>
+          <p>Version B {version}</p>
         </div>
       </footer>
     </>
